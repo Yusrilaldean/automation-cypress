@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --spec \"cypress/e2e/AddedNewData.cy.js\""
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.3.1",
+    "cypress": "^15.21.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "papaparse": "^5.7.0"
+  }
+}
