@@ -18,6 +18,7 @@ describe("Add new data from CSV", () => {
     users.forEach((user) => {
       AddNewUserPage.fillDataForm(user);
       AddNewUserPage.verifyUserVisible(user);
+      console.log('Testing push git');
     });
   });
 
